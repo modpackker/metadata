@@ -58,5 +58,5 @@ export const bindings = {
 	'1.8.5': ver,
 	'1.8.4': ver,
 	'1.8.3': ver,
-	'1.8': ver
+	'1.8': ver,
 };

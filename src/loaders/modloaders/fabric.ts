@@ -415,5 +415,5 @@ export const bindings: Bindings = {
 	'18w45a': latestVersion,
 	'18w44a': latestVersion,
 	'18w43c': latestVersion,
-	'18w43b': latestVersion
+	'18w43b': latestVersion,
 };

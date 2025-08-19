@@ -355,5 +355,5 @@ export const bindings: Bindings = {
 	'19w38a': latestVersion,
 	'19w37a': latestVersion,
 	'19w36a': latestVersion,
-	'1.14.4': latestVersion
+	'1.14.4': latestVersion,
 };

@@ -1,6 +1,17 @@
-export const pluginLoaders = ['vanilla', 'bukkit', 'bungeecord', 'folia', 'paper', 'purpur', 'spigot', 'sponge', 'velocity', 'waterfall'] as const satisfies string[];
+export const pluginLoaders = [
+	'vanilla',
+	'bukkit',
+	'bungeecord',
+	'folia',
+	'paper',
+	'purpur',
+	'spigot',
+	'sponge',
+	'velocity',
+	'waterfall',
+] as const satisfies string[];
 
-export type PluginLoader = typeof pluginLoaders[number];
+export type PluginLoader = (typeof pluginLoaders)[number];
 
 /*  */
 

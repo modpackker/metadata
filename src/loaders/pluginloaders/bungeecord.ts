@@ -23,5 +23,5 @@ export const bindings: Bindings = {
 	'1.6.1': ver,
 	'1.5': ver,
 	'1.4.7': ver,
-	'1.0': ver
+	'1.0': ver,
 };

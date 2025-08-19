@@ -768,10 +768,10 @@ export const versions = [
 	'1.2.2',
 	'1.2.1',
 	'1.1',
-	'1.0'
+	'1.0',
 ] as const satisfies string[];
 
-export type Version = typeof versions[number];
+export type Version = (typeof versions)[number];
 
 export const legacyVersions = [
 	/* BETA */
@@ -1065,7 +1065,7 @@ export const legacyVersions = [
 	'rd-131648',
 ] as const satisfies string[];
 
-export type LegacyVersion = typeof legacyVersions[number];
+export type LegacyVersion = (typeof legacyVersions)[number];
 
 /*  */
 
@@ -1168,4 +1168,4 @@ export const majorVersions = [
 	'1.0',
 ] as const satisfies Version[];
 
-export type MajorVersion = typeof majorVersions[number];
+export type MajorVersion = (typeof majorVersions)[number];

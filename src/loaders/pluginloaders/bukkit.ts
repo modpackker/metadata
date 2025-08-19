@@ -60,4 +60,4 @@ export const bindings: Bindings = {
 	'1.8.4': ver,
 	'1.8.3': ver,
 	'1.8': ver,
-}
+};

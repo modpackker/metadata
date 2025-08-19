@@ -1,6 +1,18 @@
-export const modLoaders = ['vanilla', 'babric', 'bta-babric', 'fabric', 'forge', 'java-agent', 'legacyfabric', 'neoforge', 'nilloader', 'orinthe', 'quilt'] as const satisfies string[];
+export const modLoaders = [
+	'vanilla',
+	'babric',
+	'bta-babric',
+	'fabric',
+	'forge',
+	'java-agent',
+	'legacyfabric',
+	'neoforge',
+	'nilloader',
+	'orinthe',
+	'quilt',
+] as const satisfies string[];
 
-export type ModLoader = typeof modLoaders[number];
+export type ModLoader = (typeof modLoaders)[number];
 
 /*  */
 

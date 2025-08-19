@@ -5,7 +5,7 @@ import type { ShaderLoader } from './shaderloaders';
 export type Bindings = Partial<Record<McVersion, string>>;
 export type ProjectBindings = {
 	[key in ModPluginLoader | ShaderLoader]?: Bindings;
-}
+};
 
 /*  */
 
