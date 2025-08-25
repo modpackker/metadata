@@ -3,6 +3,10 @@ import type { Bindings } from '../';
 export const latestVersion = '0.29.1';
 
 export const bindings: Bindings = {
+	'25w34b': latestVersion,
+	'25w34a': latestVersion,
+	'25w33a': latestVersion,
+	'25w32a': latestVersion,
 	'25w31a': latestVersion,
 	'1.21.8': latestVersion,
 	'1.21.8-rc1': latestVersion,

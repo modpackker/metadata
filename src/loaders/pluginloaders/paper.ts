@@ -1,7 +1,7 @@
 import type { Bindings } from '../';
 
 export const bindings: Bindings = {
-	'1.21.8': '21',
+	'1.21.8': '50',
 	'1.21.7': '32',
 	'1.21.6': '48',
 	'1.21.5': '114',
@@ -49,4 +49,5 @@ export const bindings: Bindings = {
 	'1.10.2': '918',
 	'1.9.4': '775',
 	'1.8.8': '445',
+	'1.7.10': '2025',
 };
