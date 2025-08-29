@@ -10,6 +10,7 @@ export type ProjectBindings = {
 /*  */
 
 export * from './modloaders';
+export * from './shaderloaders';
 export * from './pluginloaders';
 export * from './modpluginloader';
-export * from './shaderloaders';
+export * from './proxyservers';
