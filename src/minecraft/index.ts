@@ -1,3 +1,7 @@
+export * from './gamemode';
+
+export * from './envs';
+
 export {
 	versions as mcVersions,
 	legacyVersions as mcLegacyVersions,
@@ -6,9 +10,3 @@ export {
 	type LegacyVersion as McLegacyVersion,
 	type MajorVersion as McMajorVersion,
 } from './versions';
-
-/*  */
-
-export * from './gamemode';
-
-export * from './envs';
