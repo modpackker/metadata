@@ -1,4 +1,6 @@
 export const versions = [
+	'25w36b',
+	'25w36a',
 	'25w35a',
 	'25w34b',
 	'25w34a',
