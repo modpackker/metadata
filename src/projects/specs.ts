@@ -1,5 +1,5 @@
 import type { MultiplayerEnv } from '../minecraft/env';
-import type { McVersion } from '../minecraft';
+import type { Version } from '../minecraft';
 import type { ModLoader } from '../modding/modloaders';
 import type { PluginLoader } from '../modding/pluginloaders';
 import type { ShaderLoader } from '../modding/shaderloaders';
@@ -7,37 +7,37 @@ import type { ShaderLoader } from '../modding/shaderloaders';
 export type Specs =
 	| {
 			type: 'datapack';
-			versions: McVersion[];
+			versions: Version[];
 			loaders: null;
 			multiplayerEnv: 'client';
 	  }
 	| {
 			type: 'mod';
-			versions: McVersion[];
+			versions: Version[];
 			loaders: ModLoader[];
 			multiplayerEnv: MultiplayerEnv;
 	  }
 	| {
 			type: 'modpack';
-			versions: McVersion[];
+			versions: Version[];
 			loaders: ModLoader[];
 			multiplayerEnv: MultiplayerEnv;
 	  }
 	| {
 			type: 'plugin';
-			versions: McVersion[];
+			versions: Version[];
 			loaders: PluginLoader[];
 			multiplayerEnv: 'server';
 	  }
 	| {
 			type: 'resourcepack';
-			versions: McVersion[];
+			versions: Version[];
 			loaders: null;
 			multiplayerEnv: 'client';
 	  }
 	| {
 			type: 'shader';
-			versions: McVersion[];
+			versions: Version[];
 			loaders: ShaderLoader[];
 			multiplayerEnv: 'client';
 	  };

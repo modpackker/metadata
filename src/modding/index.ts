@@ -1,8 +1,8 @@
-import type { McVersion } from '../minecraft';
+import type { Version } from '../minecraft';
 import type { ModPluginLoader } from './modpluginloader';
 import type { ShaderLoader } from './shaderloaders';
 
-export type Bindings = Partial<Record<McVersion, string>>;
+export type Bindings = Partial<Record<Version, string>>;
 export type ProjectBindings = {
 	[key in ModPluginLoader | ShaderLoader]?: Bindings;
 };
