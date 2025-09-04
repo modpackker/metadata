@@ -1,4 +1,4 @@
-import type { MultiplayerEnv } from '../minecraft/envs';
+import type { MultiplayerEnv } from '../minecraft/env';
 import type { McVersion } from '../minecraft';
 import type { ModLoader } from '../modding/modloaders';
 import type { PluginLoader } from '../modding/pluginloaders';

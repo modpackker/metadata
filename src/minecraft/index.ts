@@ -2,7 +2,7 @@ export * from './edition';
 
 export * from './gamemode';
 
-export * from './envs';
+export * from './env';
 
 export {
 	versions as mcVersions,
