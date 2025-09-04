@@ -1,3 +1,5 @@
+import { z } from 'zod';
+
 export const versions = [
 	'25w36b',
 	'25w36a',
@@ -774,7 +776,11 @@ export const versions = [
 	'1.0',
 ] as const satisfies string[];
 
+export const versionValidator = z.enum(versions);
+
 export type Version = (typeof versions)[number];
+
+/*  */
 
 export const legacyVersions = [
 	/* BETA */
@@ -1068,6 +1074,8 @@ export const legacyVersions = [
 	'rd-131648',
 ] as const satisfies string[];
 
+export const legacyVersionValidator = z.enum(legacyVersions);
+
 export type LegacyVersion = (typeof legacyVersions)[number];
 
 /*  */
@@ -1170,5 +1178,7 @@ export const majorVersions = [
 	'1.1',
 	'1.0',
 ] as const satisfies Version[];
+
+export const majorVersionValidator = z.enum(majorVersions);
 
 export type MajorVersion = (typeof majorVersions)[number];

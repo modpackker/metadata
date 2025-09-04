@@ -1,3 +1,5 @@
+import { z } from 'zod';
+
 export const modLoaders = [
 	'vanilla',
 	'babric',
@@ -11,6 +13,8 @@ export const modLoaders = [
 	'orinthe',
 	'quilt',
 ] as const satisfies string[];
+
+export const modLoaderValidator = z.enum(modLoaders);
 
 export type ModLoader = (typeof modLoaders)[number];
 

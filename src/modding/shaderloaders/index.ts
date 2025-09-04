@@ -1,4 +1,8 @@
+import { z } from 'zod';
+
 export const shaderLoaders = ['vanilla', 'canvas', 'iris', 'optifine'] as const satisfies string[];
+
+export const shaderLoaderValidator = z.enum(shaderLoaders);
 
 export type ShaderLoader = (typeof shaderLoaders)[number];
 

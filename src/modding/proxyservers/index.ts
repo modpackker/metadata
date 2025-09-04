@@ -1,8 +1,8 @@
-export const proxyServers = [
-	'bungeecord',
-	'velocity',
-	'waterfall',
-] as const satisfies string[];
+import { z } from 'zod';
+
+export const proxyServers = ['bungeecord', 'velocity', 'waterfall'] as const satisfies string[];
+
+export const proxyServerValidator = z.enum(proxyServers);
 
 export type ProxyServer = (typeof proxyServers)[number];
 

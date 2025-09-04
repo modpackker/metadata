@@ -1,3 +1,5 @@
+import { z } from 'zod';
+
 export const pluginLoaders = [
 	'vanilla',
 	'bukkit',
@@ -7,6 +9,8 @@ export const pluginLoaders = [
 	'spigot',
 	'sponge',
 ] as const satisfies string[];
+
+export const pluginLoaderValidator = z.enum(pluginLoaders);
 
 export type PluginLoader = (typeof pluginLoaders)[number];
 
