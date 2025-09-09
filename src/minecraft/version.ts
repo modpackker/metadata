@@ -1,6 +1,7 @@
 import { z } from 'zod';
 
 export const versions = [
+	'25w37a',
 	'25w36b',
 	'25w36a',
 	'25w35a',
