@@ -9,35 +9,53 @@ export type Specs =
 			type: 'datapack';
 			versions: Version[];
 			loaders: null;
-			multiplayerEnv: 'client';
+			gamemodeEnv: {
+				singleplayer: true;
+				multiplayer: 'client';
+			};
 	  }
 	| {
 			type: 'mod';
 			versions: Version[];
 			loaders: ModLoader[];
-			multiplayerEnv: MultiplayerEnv;
+			gamemodeEnv: {
+				singleplayer: boolean;
+				multiplayer: false | MultiplayerEnv;
+			};
 	  }
 	| {
 			type: 'modpack';
 			versions: Version[];
 			loaders: ModLoader[];
-			multiplayerEnv: MultiplayerEnv;
+			gamemodeEnv: {
+				singleplayer: boolean;
+				multiplayer: false | MultiplayerEnv;
+			};
 	  }
 	| {
 			type: 'plugin';
 			versions: Version[];
 			loaders: PluginLoader[];
-			multiplayerEnv: 'server';
+			gamemodeEnv: {
+				singleplayer: true;
+				multiplayer: 'server';
+			};
 	  }
 	| {
 			type: 'resourcepack';
 			versions: Version[];
 			loaders: null;
-			multiplayerEnv: 'client';
+			gamemodeEnv: {
+				singleplayer: true;
+				multiplayer: 'client';
+			};
 	  }
 	| {
 			type: 'shader';
 			versions: Version[];
 			loaders: ShaderLoader[];
-			multiplayerEnv: 'client';
+			gamemodeEnv: {
+				singleplayer: true;
+				multiplayer: 'client';
+			};
 	  };
