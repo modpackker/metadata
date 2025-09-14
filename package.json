@@ -1,6 +1,7 @@
 {
 	"name": "@mc/metadata",
 	"type": "module",
+	"packageManager": "pnpm@10.16.1",
 	"exports": {
 		".": "./dist/index.js"
 	},
