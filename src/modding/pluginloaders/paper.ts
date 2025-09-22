@@ -1,6 +1,7 @@
 import type { Bindings } from '../';
 
 export const bindings: Bindings = {
+	'1.21.9-pre2': '7',
 	'1.21.8': '60',
 	'1.21.7': '32',
 	'1.21.6': '48',
