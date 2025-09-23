@@ -9,7 +9,7 @@ export type Specs =
 			type: 'datapack';
 			versions: Version[];
 			loaders: null;
-			gamemodeEnv: {
+			gameplayEnv: {
 				singleplayer: true;
 				multiplayer: 'client';
 			};
@@ -18,7 +18,7 @@ export type Specs =
 			type: 'mod';
 			versions: Version[];
 			loaders: ModLoader[];
-			gamemodeEnv: {
+			gameplayEnv: {
 				singleplayer: boolean;
 				multiplayer: false | MultiplayerEnv;
 			};
@@ -27,7 +27,7 @@ export type Specs =
 			type: 'modpack';
 			versions: Version[];
 			loaders: ModLoader[];
-			gamemodeEnv: {
+			gameplayEnv: {
 				singleplayer: boolean;
 				multiplayer: false | MultiplayerEnv;
 			};
@@ -36,7 +36,7 @@ export type Specs =
 			type: 'plugin';
 			versions: Version[];
 			loaders: PluginLoader[];
-			gamemodeEnv: {
+			gameplayEnv: {
 				singleplayer: true;
 				multiplayer: 'server';
 			};
@@ -45,7 +45,7 @@ export type Specs =
 			type: 'resourcepack';
 			versions: Version[];
 			loaders: null;
-			gamemodeEnv: {
+			gameplayEnv: {
 				singleplayer: true;
 				multiplayer: 'client';
 			};
@@ -54,7 +54,7 @@ export type Specs =
 			type: 'shader';
 			versions: Version[];
 			loaders: ShaderLoader[];
-			gamemodeEnv: {
+			gameplayEnv: {
 				singleplayer: true;
 				multiplayer: 'client';
 			};

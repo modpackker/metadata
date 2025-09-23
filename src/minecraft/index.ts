@@ -1,6 +1,6 @@
 export * from './edition';
 
-export * from './gamemode';
+export * from './gameplay';
 
 export * from './env';
 
