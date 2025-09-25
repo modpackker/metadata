@@ -1,6 +1,7 @@
 import { z } from 'zod';
 
 export const versions = [
+	'1.21.9-rc1',
 	'1.21.9-pre4',
 	'1.21.9-pre3',
 	'1.21.9-pre2',
