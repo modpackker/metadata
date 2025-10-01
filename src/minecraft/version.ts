@@ -779,6 +779,7 @@ export const versions = [
 	'1.2.2',
 	'1.2.1',
 	'1.1',
+	'1.0.1',
 	'1.0',
 ] as const satisfies string[];
 
@@ -837,7 +838,7 @@ export const legacyVersions = [
 	'Alpha 1.2.3_02',
 	'Alpha 1.2.3_01',
 	'Alpha 1.2.3',
-	'Alpha 1.2.2 ',
+	'Alpha 1.2.2',
 	'Alpha 1.2.1_01',
 	'Alpha 1.2.1',
 	'Alpha 1.2.0_02',
@@ -1162,14 +1163,13 @@ export const majorVersions = [
 	'1.7.6',
 	'1.7.5',
 	'1.7.4',
-	'1.7.3',
 	'1.7.2',
 	'1.6.4',
 	'1.6.2',
 	'1.6.1',
-	'1.6',
 	'1.5.2',
 	'1.5.1',
+	'1.5',
 	'1.4.7',
 	'1.4.6',
 	'1.4.5',
@@ -1183,6 +1183,7 @@ export const majorVersions = [
 	'1.2.2',
 	'1.2.1',
 	'1.1',
+	'1.0.1',
 	'1.0',
 ] as const satisfies Version[];
 
