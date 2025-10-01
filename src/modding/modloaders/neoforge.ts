@@ -1,6 +1,7 @@
 import type { Bindings } from '../';
 
 export const bindings: Bindings = {
+	'1.21.9': '21.9.3-beta',
 	'1.21.8': '21.8.47',
 	'1.21.7': '21.7.25-beta',
 	'1.21.6': '21.6.20-beta',
