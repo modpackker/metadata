@@ -2,9 +2,11 @@ import type { Version } from '../minecraft';
 import type { ModPluginLoader } from './modpluginloader';
 import type { ShaderLoader } from './shaderloaders';
 
-export type Bindings = Partial<Record<Version, string>>;
+export type Bindings = {
+	[mcVersion in Version]?: string;
+};
 export type ProjectBindings = {
-	[key in ModPluginLoader | ShaderLoader]?: Bindings;
+	[loader in ModPluginLoader | ShaderLoader]?: Bindings;
 };
 
 /*  */
