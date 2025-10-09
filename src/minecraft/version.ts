@@ -1,6 +1,9 @@
 import { z } from 'zod';
 
 export const versions = [
+	'25w41a',
+	'1.21.10',
+	'1.21.10-rc1',
 	'1.21.9',
 	'1.21.9-rc1',
 	'1.21.9-pre4',
@@ -1090,6 +1093,7 @@ export type LegacyVersion = (typeof legacyVersions)[number];
 /*  */
 
 export const majorVersions = [
+	'1.21.10',
 	'1.21.9',
 	'1.21.8',
 	'1.21.7',
