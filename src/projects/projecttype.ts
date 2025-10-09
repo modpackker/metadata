@@ -6,6 +6,7 @@ export const projectTypes = [
 	'modpack',
 	'plugin',
 	'resourcepack',
+	'seed',
 	'shader',
 ] as const satisfies string[];
 
