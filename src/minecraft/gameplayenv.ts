@@ -1,3 +1,5 @@
+import { z } from 'zod';
+
 import { envValidator, type Env } from './env';
 
 export const singleplayerEnvValidator = z.enum(['client&server']);
