@@ -1,7 +1,7 @@
 import { z } from 'zod';
 
 export const versions = [
-	'21w42a',
+	'25w42a',
 	'25w41a',
 	'1.21.10',
 	'1.21.10-rc1',
