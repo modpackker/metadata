@@ -1,8 +1,8 @@
-import type { Bindings } from '../';
+import type { Bindings } from '..';
 
 const ver = '?';
 
-export const bindings = {
+export const bindings: Bindings = {
 	'1.21.5': ver,
 	'1.21.4': ver,
 	'1.21.3': ver,
@@ -44,6 +44,7 @@ export const bindings = {
 	'1.13': ver,
 	'1.12.2': ver,
 	'1.12.1': ver,
+	'1.12': ver,
 	'1.11.2': ver,
 	'1.11.1': ver,
 	'1.11': ver,

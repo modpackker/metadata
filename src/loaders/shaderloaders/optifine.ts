@@ -1,4 +1,4 @@
-import type { ProjectBindings } from '../';
+import type { ProjectBindings } from '..';
 
 export const bindings: ProjectBindings = {
 	vanilla: {

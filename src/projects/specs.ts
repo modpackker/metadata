@@ -1,8 +1,6 @@
-import type { MultiplayerEnv } from '../minecraft/env';
+import type { MultiplayerEnv } from '../minecraft';
 import type { Version } from '../minecraft';
-import type { ModLoader } from '../modding/modloaders';
-import type { PluginLoader } from '../modding/pluginloaders';
-import type { ShaderLoader } from '../modding/shaderloaders';
+import type { ModLoader, PluginLoader, ShaderLoader } from '../loaders';
 
 export type Specs =
 	| {
