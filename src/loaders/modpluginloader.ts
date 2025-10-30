@@ -1,12 +1,12 @@
-import { z } from 'zod';
+import z from "zod";
 
 import {
 	deprecatedModLoaders,
 	modLoaders,
 	type DeprecatedModLoader,
 	type ModLoader,
-} from './modloaders';
-import { pluginLoaders, type PluginLoader } from './pluginloaders';
+} from "./modloaders";
+import { pluginLoaders, type PluginLoader } from "./pluginloaders";
 
 export const modPluginLoaderValidator = z.enum([
 	...modLoaders,

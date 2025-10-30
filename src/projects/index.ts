@@ -1,6 +1,6 @@
-import { z } from 'zod';
-import { moddingTypes } from '../modding';
-import { vanillaTypes } from '../vanilla';
+import z from "zod";
+import { moddingTypes } from "../modding";
+import { vanillaTypes } from "../vanilla";
 
 export const projectTypes = [...vanillaTypes, ...moddingTypes];
 
@@ -10,4 +10,4 @@ export type ProjectType = (typeof projectTypes)[number];
 
 /*  */
 
-export * from './specs';
+export * from "./specs";
