@@ -1,6 +1,6 @@
 import type { Bindings } from '..';
 
-export const latestVersion = '0.29.2-beta.5';
+export const latestVersion = '0.29.3-beta.1';
 
 export const bindings: Bindings = {
 	'25w43a': latestVersion,
