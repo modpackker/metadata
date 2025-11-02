@@ -1,17 +1,11 @@
-import z from "zod";
+import z from 'zod';
 
-import {
-	deprecatedModLoaders,
-	modLoaders,
-	type DeprecatedModLoader,
-	type ModLoader,
-} from "./modloaders";
-import { pluginLoaders, type PluginLoader } from "./pluginloaders";
+import { deprecatedModLoaders, modLoaders } from './modloaders';
+import { pluginLoaders } from './pluginloaders';
 
-export const modPluginLoaderValidator = z.enum([
-	...modLoaders,
-	...deprecatedModLoaders,
-	...pluginLoaders,
-]);
+/* @ts-expect-error */
+export const modPluginLoaders = modLoaders.concat(deprecatedModLoaders).concat(pluginLoaders);
 
-export type ModPluginLoader = ModLoader | DeprecatedModLoader | PluginLoader;
+export const modPluginLoaderValidator = z.enum(modPluginLoaders);
+
+export type ModPluginLoader = (typeof modPluginLoaders)[number];
