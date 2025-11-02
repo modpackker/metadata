@@ -1,7 +1,7 @@
 import z from 'zod';
 
 import { deprecatedModLoaders, modLoaders } from './modloaders';
-import { pluginLoaders, type PluginLoader } from './pluginloaders';
+import { pluginLoaders } from './pluginloaders';
 
 /* @ts-expect-error */
 export const modPluginLoaders = modLoaders.concat(deprecatedModLoaders).concat(pluginLoaders);
