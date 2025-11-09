@@ -2,7 +2,7 @@ import type { Bindings } from '..';
 
 const ver = '?';
 
-export const bindings = {
+export const bindings: Bindings = {
 	'1.21.5': ver,
 	'1.21.4': ver,
 	'1.21.3': ver,
