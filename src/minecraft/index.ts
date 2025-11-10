@@ -6,3 +6,5 @@ export * from './env';
 export * from './gameplayenv';
 
 export * from './version';
+
+export * from './dimension';
