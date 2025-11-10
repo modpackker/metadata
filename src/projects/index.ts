@@ -10,4 +10,7 @@ export type ProjectType = (typeof projectTypes)[number];
 
 /*  */
 
+export * from './vanilla';
+export * from './modding';
+
 export * from './specs';
