@@ -1,4 +1,4 @@
-import z from "zod";
+import z from 'zod';
 
 export const seedValidator = z.string().regex(/-?\d{1,32}/);
 
