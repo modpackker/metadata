@@ -108,6 +108,7 @@ export type MajorVersion = (typeof majorVersions)[number];
 /*  */
 
 export const versions = [
+	'25w46a',
 	'25w45a',
 	'25w44a',
 	'25w43a',
