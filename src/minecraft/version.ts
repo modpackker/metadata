@@ -101,9 +101,9 @@ export const majorVersions = [
 	'1.0',
 ] as const satisfies Version[];
 
-export const majorVersionValidator = z.enum(majorVersions);
-
 export type MajorVersion = (typeof majorVersions)[number];
+
+export const majorVersionValidator = z.enum(majorVersions);
 
 /*  */
 
@@ -899,9 +899,9 @@ export const versions = [
 	'1.0',
 ] as const satisfies string[];
 
-export const versionValidator = z.enum(versions);
-
 export type Version = (typeof versions)[number];
+
+export const versionValidator = z.enum(versions);
 
 /*  */
 
@@ -1198,6 +1198,6 @@ export const legacyVersions = [
 	'rd-131641',
 ] as const satisfies string[];
 
-export const legacyVersionValidator = z.enum(legacyVersions);
-
 export type LegacyVersion = (typeof legacyVersions)[number];
+
+export const legacyVersionValidator = z.enum(legacyVersions);

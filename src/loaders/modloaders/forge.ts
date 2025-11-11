@@ -1,4 +1,4 @@
-import type { Bindings } from '..';
+import type { Bindings } from '../bindings';
 
 export const bindings: Bindings = {
 	'1.21.10': '60.0.15',

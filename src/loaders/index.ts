@@ -1,13 +1,10 @@
-import type { Version } from '../minecraft';
-import type { ModPluginLoader } from './modpluginloader';
-import type { ShaderLoader } from './shaderloaders';
+import z from 'zod';
 
-export type Bindings = {
-	[mcVersion in Version]?: string;
-};
-export type ProjectBindings = {
-	[loader in ModPluginLoader | ShaderLoader]?: Bindings;
-};
+export const loaderTypes = ['modloader', 'pluginloader', 'proxyservers', 'shaderloader'];
+
+export type LoaderType = (typeof loaderTypes)[number];
+
+export const loaderTypeValidator = z.enum(loaderTypes);
 
 /*  */
 

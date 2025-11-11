@@ -1,5 +1,14 @@
 import z from 'zod';
 
-export const seedValidator = z.string().regex(/-?\d{1,32}/);
+import type { Dimension, Edition, Version } from '../minecraft';
 
-export type Seed = number;
+export type Seed = {
+	context: 'vanilla';
+	integrationType: 'content';
+	type: 'seed';
+	edition: Edition;
+	version: Version;
+	dimension: Dimension;
+};
+
+export const seedValidator = z.string().regex(/-?\d{1,32}/);

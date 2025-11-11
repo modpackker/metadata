@@ -4,13 +4,18 @@ import { vanillaTypes } from './vanilla';
 
 export const projectTypes = [...vanillaTypes, ...moddingTypes];
 
+export type ProjectType = (typeof projectTypes)[number];
+
 export const projectTypeValidator = z.enum(projectTypes);
 
-export type ProjectType = (typeof projectTypes)[number];
+/*  */
+
+import type { VanillaProject } from './vanilla';
+import type { ModdingProject } from './modding';
+
+export type Project = VanillaProject | ModdingProject;
 
 /*  */
 
 export * from './vanilla';
 export * from './modding';
-
-export * from './specs';

@@ -1,4 +1,4 @@
-import type { Bindings } from '..';
+import type { Bindings } from '../bindings';
 
 export const latestVersion = '0.29.3-beta.1';
 
