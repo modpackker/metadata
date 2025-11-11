@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import z from 'zod';
 
 export const contexts = ['vanilla', 'modding'] as const satisfies string[];
 
