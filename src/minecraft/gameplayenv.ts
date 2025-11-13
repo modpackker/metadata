@@ -1,9 +1,17 @@
 import z from 'zod';
 
-import { envValidator, type Env } from './env';
+import { envs, envValidator, type Env } from './env';
 
-export type SingleplayerEnv = 'client&server';
-export type MultiplayerEnv = Env;
+export const singleplayerEnvs = ['client&server'];
+export const multiplayerEnvs = envs;
 
-export const singleplayerEnvValidator = z.enum(['client&server']);
-export const multiplayerEnvValidator = envValidator;
+export type SingleplayerEnv = (typeof singleplayerEnvs)[number];
+export type MultiplayerEnv = (typeof multiplayerEnvs)[number];
+
+export type GameplayEnv = {
+	singleplayer: SingleplayerEnv;
+	multiplayer: MultiplayerEnv;
+};
+
+export const singleplayerEnvValidator = z.enum(singleplayerEnvs);
+export const multiplayerEnvValidator = z.enum(multiplayerEnvs);
