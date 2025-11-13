@@ -9,6 +9,7 @@ export type Seed = {
 	edition: Edition;
 	version: Version;
 	dimension: Dimension;
+	number: string;
 };
 
 export const seedValidator = z.string().regex(/-?\d{1,32}/);
