@@ -2,7 +2,7 @@ import type { Edition, Version } from '../minecraft';
 
 export type ResourcePack = {
 	context: 'vanilla';
-	integrationType: 'static';
+	scope: 'static';
 	type: 'resourcepack';
 	edition: Edition;
 	versions: Version[];

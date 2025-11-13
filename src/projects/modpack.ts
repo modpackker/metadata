@@ -3,7 +3,7 @@ import type { ModLoader } from '../loaders';
 
 export type Modpack = {
 	context: 'modding';
-	integrationType: 'code';
+	scope: 'code';
 	type: 'modpack';
 	edition: 'java';
 	versions: Version[];

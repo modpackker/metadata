@@ -3,7 +3,7 @@ import type { MultiplayerEnv, Version } from '../minecraft';
 
 export type Mod = {
 	context: 'modding';
-	integrationType: 'code';
+	scope: 'code';
 	type: 'mod';
 	edition: 'java';
 	versions: Version[];

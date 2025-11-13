@@ -2,7 +2,7 @@ import type { Version } from '../minecraft';
 
 export type Minimap = {
 	context: 'modding';
-	integrationType: 'content';
+	scope: 'content';
 	type: 'minimap';
 	edition: 'java';
 	version: Version;

@@ -3,7 +3,7 @@ import type { Version } from '../minecraft';
 
 export type Plugin = {
 	context: 'modding';
-	integrationType: 'code';
+	scope: 'code';
 	type: 'plugin';
 	edition: 'java';
 	versions: Version[];

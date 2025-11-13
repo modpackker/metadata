@@ -3,7 +3,7 @@ import type { Version } from '../minecraft';
 
 export type Shader = {
 	context: 'modding';
-	integrationType: 'code';
+	scope: 'code';
 	type: 'shader';
 	edition: 'java';
 	versions: Version[];

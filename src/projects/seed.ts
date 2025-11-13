@@ -4,7 +4,7 @@ import type { Dimension, Edition, Version } from '../minecraft';
 
 export type Seed = {
 	context: 'vanilla';
-	integrationType: 'content';
+	scope: 'content';
 	type: 'seed';
 	edition: Edition;
 	version: Version;

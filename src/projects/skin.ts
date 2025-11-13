@@ -1,5 +1,5 @@
 export type Skin = {
 	context: 'vanilla';
-	integrationType: 'content';
+	scope: 'content';
 	type: 'skin';
 };

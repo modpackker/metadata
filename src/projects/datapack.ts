@@ -2,7 +2,7 @@ import type { Version } from '../minecraft';
 
 export type Datapack = {
 	context: 'vanilla';
-	integrationType: 'static';
+	scope: 'static';
 	type: 'datapack';
 	edition: 'java';
 	versions: Version[];

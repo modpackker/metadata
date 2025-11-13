@@ -1,6 +1,6 @@
 export type Addon = {
 	context: 'vanilla';
-	integrationType: 'code';
+	scope: 'code';
 	type: 'addon';
 	edition: 'bedrock';
 	version: unknown;
