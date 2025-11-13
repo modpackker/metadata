@@ -9,6 +9,7 @@ export const vanillaTypes = [
 	'seed',
 	'server',
 	'skin',
+	'world',
 ] as const satisfies string[];
 
 export type VanillaType = (typeof vanillaTypes)[number];
@@ -25,6 +26,7 @@ import type { Schematic } from './schematic';
 import type { Seed } from './seed';
 import type { Server } from './server';
 import type { Skin } from './skin';
+import type { World } from './world';
 
 export type VanillaProject =
 	| Addon
@@ -34,7 +36,8 @@ export type VanillaProject =
 	| Schematic
 	| Seed
 	| Server
-	| Skin;
+	| Skin
+	| World;
 
 /*  */
 
@@ -46,3 +49,4 @@ export * from './schematic';
 export * from './seed';
 export * from './server';
 export * from './skin';
+export * from './world';
