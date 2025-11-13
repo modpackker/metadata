@@ -15,6 +15,8 @@ export type Loader = ModLoader | DeprecatedModLoader | ShaderLoader | PluginLoad
 
 /*  */
 
+export * from './bindings';
+
 export * from './modloaders';
 export * from './shaderloaders';
 export * from './pluginloaders';
