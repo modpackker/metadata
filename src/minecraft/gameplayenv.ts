@@ -10,7 +10,7 @@ export type MultiplayerEnv = (typeof multiplayerEnvs)[number];
 
 export type GameplayEnv = {
 	singleplayer: SingleplayerEnv;
-	multiplayer: MultiplayerEnv;
+	multiplayer: null | MultiplayerEnv;
 };
 
 export const singleplayerEnvValidator = z.enum(singleplayerEnvs);
