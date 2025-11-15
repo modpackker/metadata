@@ -5,7 +5,12 @@ import type { ShaderLoader } from './shaderloaders';
 import type { PluginLoader } from './pluginloaders';
 import type { ProxyServer } from './proxyservers';
 
-export const loaderTypes = ['modloader', 'pluginloader', 'proxyservers', 'shaderloader'];
+export const loaderTypes = [
+	'modloader',
+	'pluginloader',
+	'proxyservers',
+	'shaderloader',
+] as const satisfies string[];
 
 export type LoaderType = (typeof loaderTypes)[number];
 

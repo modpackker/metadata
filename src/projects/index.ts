@@ -2,7 +2,7 @@ import z from 'zod';
 import { moddingTypes } from './modding';
 import { vanillaTypes } from './vanilla';
 
-export const projectTypes = [...vanillaTypes, ...moddingTypes];
+export const projectTypes = [...vanillaTypes, ...moddingTypes] as const satisfies string[];
 
 export type ProjectType = (typeof projectTypes)[number];
 
