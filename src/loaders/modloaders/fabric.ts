@@ -6,6 +6,7 @@ export const bindings: Bindings = {
 	'1.21.11-pre3': latestVersion,
 	'1.21.11-pre2': latestVersion,
 	'1.21.11-pre1': latestVersion,
+	'25w46a': latestVersion,
 	'25w45a': latestVersion,
 	'25w44a': latestVersion,
 	'25w43a': latestVersion,
