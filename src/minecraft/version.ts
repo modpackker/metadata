@@ -108,6 +108,9 @@ export const majorVersionValidator = z.enum(majorVersions);
 /*  */
 
 export const versions = [
+	'1.21.11-pre3',
+	'1.21.11-pre2',
+	'1.21.11-pre1',
 	'25w46a',
 	'25w45a',
 	'25w44a',

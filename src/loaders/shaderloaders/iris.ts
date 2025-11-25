@@ -33,6 +33,7 @@ export const bindings: ProjectBindings = {
 		'1.16.5': '1.4.5+1.16.5',
 	},
 	neoforge: {
+		'1.21.10': '1.9.6+1.21.10-neoforge',
 		'1.21.8': '1.9.6+1.21.8-neoforge',
 		'1.21.7': '1.9.6+1.21.8-neoforge',
 		'1.21.6': '1.9.6+1.21.8-neoforge',
