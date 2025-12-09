@@ -1,6 +1,7 @@
 import z from 'zod';
 
 export const majorVersions = [
+	'1.21.11',
 	'1.21.10',
 	'1.21.9',
 	'1.21.8',
@@ -108,6 +109,12 @@ export const majorVersionValidator = z.enum(majorVersions);
 /*  */
 
 export const versions = [
+	'1.21.11',
+	'1.21.11-rc3',
+	'1.21.11-rc2',
+	'1.21.11-rc1',
+	'1.21.11-pre5',
+	'1.21.11-pre4',
 	'1.21.11-pre3',
 	'1.21.11-pre2',
 	'1.21.11-pre1',

@@ -2,6 +2,7 @@ import type { ProjectBindings } from '../bindings';
 
 export const bindings: ProjectBindings = {
 	fabric: {
+		'1.21.11': '1.10.0+1.21.11-fabric',
 		'1.21.10': '1.9.6+1.21.10-fabric',
 		'1.21.9': '1.9.6+1.21.10-fabric',
 		'1.21.8': '1.9.6+1.21.8-fabric',
@@ -45,6 +46,7 @@ export const bindings: ProjectBindings = {
 		'1.21': '1.8.0-beta.4+1.21-neoforge',
 	},
 	quilt: {
+		'1.21.11': '1.10.0+1.21.11-fabric',
 		'1.21.10': '1.9.4+1.21.10-fabric',
 		'1.21.9': '1.9.4+1.21.10-fabric',
 		'1.21.8': '1.9.5+1.21.8-fabric',
