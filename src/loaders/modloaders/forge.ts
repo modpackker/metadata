@@ -1,6 +1,7 @@
 import type { Bindings } from '../bindings';
 
 export const bindings: Bindings = {
+	'1.21.11': '61.0.3',
 	'1.21.10': '60.1.5',
 	'1.21.9': '59.0.5',
 	'1.21.8': '58.1.11',
