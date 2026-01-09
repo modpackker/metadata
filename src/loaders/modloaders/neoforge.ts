@@ -1,6 +1,7 @@
 import type { Bindings } from '../bindings';
 
 export const bindings: Bindings = {
+	/* @ts-expect-error */
 	'26.1': '26.1.0.0-alpha.5+snapshot-2',
 	'1.21.11': '21.11.25-beta',
 	'1.21.10': '21.10.64',
