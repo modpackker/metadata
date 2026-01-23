@@ -1,6 +1,6 @@
 import z from 'zod';
 
-import { envs, envValidator, type Env } from './env';
+import { envs } from './env';
 
 export const singleplayerEnvs = 'client&server' as const satisfies string;
 export const multiplayerEnvs = envs;
