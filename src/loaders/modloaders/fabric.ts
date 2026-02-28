@@ -3,6 +3,12 @@ import type { Bindings } from '../bindings';
 const latestVersion = '0.18.4';
 
 export const bindings: Bindings = {
+	'26.1-snapshot-10': latestVersion,
+	'26.1-snapshot-9': latestVersion,
+	'26.1-snapshot-8': latestVersion,
+	'26.1-snapshot-7': latestVersion,
+	'26.1-snapshot-6': latestVersion,
+	'26.1-snapshot-5': latestVersion,
 	'26.1-snapshot-4': latestVersion,
 	'26.1-snapshot-3': latestVersion,
 	'26.1-snapshot-2': latestVersion,

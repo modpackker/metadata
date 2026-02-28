@@ -109,6 +109,10 @@ export const majorVersionValidator = z.enum(majorVersions);
 /*  */
 
 export const versions = [
+	'26.1-snapshot-10',
+	'26.1-snapshot-9',
+	'26.1-snapshot-8',
+	'26.1-snapshot-7',
 	'26.1-snapshot-6',
 	'26.1-snapshot-5',
 	'26.1-snapshot-4',
