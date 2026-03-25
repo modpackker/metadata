@@ -1,9 +1,9 @@
 import z from 'zod';
 
 import type { DeprecatedModLoader, ModLoader } from './modloaders';
-import type { ShaderLoader } from './shaderloaders';
 import type { PluginLoader } from './pluginloaders';
 import type { ProxyServer } from './proxyservers';
+import type { ShaderLoader } from './shaderloaders';
 
 export const loaderTypes = [
 	'modloader',

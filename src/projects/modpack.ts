@@ -1,5 +1,5 @@
-import type { MultiplayerEnv, Version } from '../minecraft';
 import type { ModLoader } from '../loaders';
+import type { MultiplayerEnv, Version } from '../minecraft';
 
 export type Modpack = {
 	context: 'modding';

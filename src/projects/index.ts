@@ -1,4 +1,5 @@
 import z from 'zod';
+
 import { moddingTypes } from './modding';
 import { vanillaTypes } from './vanilla';
 
@@ -10,8 +11,8 @@ export const projectTypeValidator = z.enum(projectTypes);
 
 /*  */
 
-import type { VanillaProject } from './vanilla';
 import type { ModdingProject } from './modding';
+import type { VanillaProject } from './vanilla';
 
 export type Project = VanillaProject | ModdingProject;
 

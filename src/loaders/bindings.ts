@@ -1,4 +1,5 @@
 import type { Version } from '../minecraft';
+
 import type { ModLoader } from './modloaders';
 import type { PluginLoader } from './pluginloaders';
 import type { ShaderLoader } from './shaderloaders';
