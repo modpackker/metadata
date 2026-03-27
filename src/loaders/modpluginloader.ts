@@ -5,8 +5,8 @@ import {
 	modLoaders,
 	type DeprecatedModLoader,
 	type ModLoader,
-} from './modloaders';
-import { pluginLoaders, type PluginLoader } from './pluginloaders';
+} from './modloaders/_index.js';
+import { pluginLoaders, type PluginLoader } from './pluginloaders/_index.js';
 
 export type ModPluginLoader = ModLoader | DeprecatedModLoader | PluginLoader;
 

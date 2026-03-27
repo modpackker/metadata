@@ -13,7 +13,7 @@ export const proxyServerValidator = z.enum(proxyServers);
 
 /*  */
 
-export { bindings as bungeecordBindings } from './bungeecord';
-export { bindings as geyserBindings } from './geyser';
-export { bindings as velocityBindings } from './velocity';
-export { bindings as waterfallBindings } from './waterfall';
+export { bungeecordBindings } from './bungeecord.js';
+export { geyserBindings } from './geyser.js';
+export { velocityBindings } from './velocity.js';
+export { waterfallBindings } from './waterfall.js';

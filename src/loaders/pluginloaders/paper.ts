@@ -1,6 +1,6 @@
-import type { Bindings } from '../bindings';
+import type { Bindings } from '../bindings.js';
 
-export const bindings: Bindings = {
+export const paperBindings: Bindings = {
 	'1.21.9-pre4': '15',
 	'1.21.9-pre3': '12',
 	'1.21.9-pre2': '7',

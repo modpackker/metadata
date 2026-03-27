@@ -1,7 +1,6 @@
-import type { Bindings } from '../bindings';
+import type { Bindings } from '../bindings.js';
 
-export const bindings: Bindings = {
-	/* @ts-expect-error */
+export const neoforgeBindings: Bindings = {
 	'26.1': '26.1.0.0-alpha.9+snapshot-6',
 	'1.21.11': '21.11.38-beta',
 	'1.21.10': '21.10.64',

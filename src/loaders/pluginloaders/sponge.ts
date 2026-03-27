@@ -1,6 +1,6 @@
-import type { Bindings } from '../bindings';
+import type { Bindings } from '../bindings.js';
 
-export const bindings: Bindings = {
+export const spongeBindings: Bindings = {
 	'1.21.11': '18.0.0-RC2539',
 	'1.21.11-pre2': '18.0.0-RC2451',
 	'1.21.10': '17.0.1-RC2542',

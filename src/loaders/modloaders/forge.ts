@@ -1,6 +1,6 @@
-import type { Bindings } from '../bindings';
+import type { Bindings } from '../bindings.js';
 
-export const bindings: Bindings = {
+export const forgeBindings: Bindings = {
 	'1.21.11': '61.1.1',
 	'1.21.10': '60.1.8',
 	'1.21.9': '59.0.5',

@@ -1,15 +1,3 @@
-import type { Bindings } from '../bindings';
+import type { Bindings } from '../bindings.js';
 
-export const bindings: Bindings = {
-	'1.21': '584',
-	'1.20': '578',
-	'1.19': '535',
-	'1.18': '488',
-	'1.17': '454',
-	'1.16': '431',
-	'1.15': '350',
-	'1.14': '301',
-	'1.13': '276',
-	'1.12': '185',
-	'1.11': '108',
-};
+export const waterfallBindings: Bindings = {};

@@ -1,6 +1,6 @@
-import type { ProjectBindings } from '../bindings';
+import type { ProjectBindings } from '../bindings.js';
 
-export const bindings: ProjectBindings = {
+export const canvasBindings: ProjectBindings = {
 	fabric: {
 		'1.20.2': 'fabric-20.2.2641',
 		'1.20.1': 'fabric-20.0.2625',

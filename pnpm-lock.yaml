@@ -7,13 +7,14 @@ settings:
 importers:
 
   .:
+    dependencies:
+      zod:
+        specifier: ^4.3.5
+        version: 4.3.5
     devDependencies:
       typescript:
         specifier: ^6.0.2
         version: 6.0.2
-      zod:
-        specifier: ^4.3.5
-        version: 4.3.5
 
 packages:
 

@@ -1,8 +1,9 @@
-import type { ProjectBindings } from '../bindings';
+import type { ProjectBindings } from '../bindings.js';
 
-export const bindings: ProjectBindings = {
+export const irisBindings: ProjectBindings = {
 	fabric: {
-		'1.21.11': '1.10.6+1.21.11-fabric',
+		'26.1': '1.10.8+26.1-fabric',
+		'1.21.11': '1.10.7+1.21.11-fabric',
 		'1.21.10': '1.9.7+1.21.10-fabric',
 		'1.21.9': '1.9.7+1.21.10-fabric',
 		'1.21.8': '1.9.6+1.21.8-fabric',
@@ -34,7 +35,7 @@ export const bindings: ProjectBindings = {
 		'1.16.5': '1.4.5+1.16.5',
 	},
 	neoforge: {
-		'1.21.11': '1.10.6+1.21.11-neoforge',
+		'1.21.11': '1.10.7+1.21.11-neoforge',
 		'1.21.10': '1.9.7+1.21.10-neoforge',
 		'1.21.8': '1.9.6+1.21.8-neoforge',
 		'1.21.7': '1.9.6+1.21.8-neoforge',

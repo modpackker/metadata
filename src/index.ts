@@ -1,6 +1,8 @@
-export * from './minecraft';
-export * from './java';
+export * from './context.js';
+export * from './java.js';
 
-export * from './loaders';
+export * from './minecraft/_index.js';
 
-export * from './projects';
+export * from './loaders/_index.js';
+
+export * from './projects/_index.js';

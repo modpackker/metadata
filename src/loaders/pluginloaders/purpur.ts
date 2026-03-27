@@ -1,6 +1,6 @@
-import type { Bindings } from '../bindings';
+import type { Bindings } from '../bindings.js';
 
-export const bindings: Bindings = {
+export const purpurBindings: Bindings = {
 	'1.21.5': '2417',
 	'1.21.4': '2416',
 	'1.21.3': '2358',
