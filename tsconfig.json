@@ -2,19 +2,15 @@
 	"include": ["./src/**/*.ts"],
 	"compilerOptions": {
 		/* parser */
+		"rootDir": "./src",
 		"skipLibCheck": true,
-		"alwaysStrict": true /* ECMAScript */,
-		"strict": true /* TypeScript */,
-		"module": "ESNext",
-		"moduleResolution": "bundler",
-		"moduleDetection": "force",
+		"module": "NodeNext",
+		"moduleDetection": "force" /* force ESM */,
 		"resolveJsonModule": true /* JSON */,
 		/* type checking */
+		"types": [],
 		"exactOptionalPropertyTypes": true,
-		"noImplicitAny": true,
-		"noImplicitThis": true,
 		"noUncheckedIndexedAccess": true,
-		"noUncheckedSideEffectImports": true,
 		/* linter */
 		"allowUnreachableCode": false,
 		"allowUnusedLabels": false,
@@ -25,9 +21,7 @@
 		"verbatimModuleSyntax": true,
 		/* compiler */
 		"target": "ESNext",
-		"sourceMap": true,
 		"declaration": true,
-		"declarationMap": true,
 		"outDir": "./dist"
 	}
 }
