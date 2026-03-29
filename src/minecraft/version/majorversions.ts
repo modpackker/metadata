@@ -1,6 +1,7 @@
 import type { McVersion } from './_index.js';
 
 export const mcMajorVersions = [
+	'26.1',
 	'1.21.11',
 	'1.21.10',
 	'1.21.9',
@@ -78,16 +79,16 @@ export const mcMajorVersions = [
 	'1.7.6',
 	'1.7.5',
 	'1.7.4',
+	'1.7.3',
 	'1.7.2',
 	'1.6.4',
 	'1.6.2',
 	'1.6.1',
 	'1.5.2',
 	'1.5.1',
-	'1.5',
 	'1.4.7',
-	'1.4.6',
 	'1.4.5',
+	'1.4.6',
 	'1.4.4',
 	'1.4.2',
 	'1.3.2',
@@ -98,6 +99,5 @@ export const mcMajorVersions = [
 	'1.2.2',
 	'1.2.1',
 	'1.1',
-	'1.0.1',
-	'1.0',
+	'1.0'
 ] as const satisfies McVersion[];

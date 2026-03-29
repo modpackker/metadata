@@ -1,3 +1,3 @@
-import type { ProjectBindings } from '../bindings.js';
+import type { Bindings } from '../bindings.js';
 
-export const velocityBindings: ProjectBindings = {};
+export const velocityBindings: Bindings = {};

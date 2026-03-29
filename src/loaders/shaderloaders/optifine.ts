@@ -43,6 +43,6 @@ export const optifineBindings: ProjectBindings = {
 		'1.8.8': 'HD U H5',
 		'1.8.0': 'HD U H5',
 		'1.7.10': 'HD U D3',
-		'1.7.2': 'HD U E3',
-	},
+		'1.7.2': 'HD U E3'
+	}
 };
