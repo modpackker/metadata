@@ -1,0 +1,29 @@
+import { writeLoaderSync } from '../lib';
+
+import type { Bindings } from '../../src/loaders/bindings';
+import type { McVersion } from '../../src/minecraft/version/_index';
+
+export const forge = async () => {
+	const maven = Object.entries(
+		(
+			await (
+				await fetch(
+					'https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json',
+				)
+			).json()
+		).promos,
+	).reverse() as [McVersion, string][];
+
+	const bindings: Bindings = {};
+
+	for (const [mcVersion, loaderVersion] of maven) {
+		if (mcVersion.endsWith('-latest')) {
+			bindings[mcVersion.replaceAll('-latest', '') as McVersion] = loaderVersion.replaceAll(
+				'-latest',
+				'',
+			);
+		}
+	}
+
+	writeLoaderSync('modloader', 'forge', bindings);
+};

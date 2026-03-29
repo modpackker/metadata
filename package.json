@@ -9,9 +9,12 @@
 	},
 	"scripts": {
 		"dev": "tsc --watch",
-		"build": "tsc"
+		"build": "tsc",
+		"sync": "pnpm run shell:sync && pnpm run build",
+		"shell:sync": "bun ./shell/index.ts"
 	},
 	"devDependencies": {
+		"@types/node": "^25.5.0",
 		"typescript": "^6.0.2"
 	},
 	"peerDependencies": {
