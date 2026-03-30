@@ -11,7 +11,6 @@
 		"types": [],
 		"strictNullChecks": true,
 		"exactOptionalPropertyTypes": true,
-		"noUncheckedIndexedAccess": true,
 		/* linter */
 		"allowUnreachableCode": false,
 		"allowUnusedLabels": false,
@@ -23,6 +22,6 @@
 		/* compiler */
 		"target": "ESNext",
 		"declaration": true,
-		"outDir": "./dist"
-	}
+		"outDir": "./dist",
+	},
 }
