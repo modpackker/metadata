@@ -1,6 +1,5 @@
-import { writeLoaderSync } from '../lib';
-
 import { McVersion } from '../../src/minecraft/_index';
+import { writeLoaderSync } from '../lib';
 
 export const folia = async () => {
 	const mcVersions = Object.values(

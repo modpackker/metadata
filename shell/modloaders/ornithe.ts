@@ -1,7 +1,6 @@
-import { writeLoaderSync } from '../lib';
-
 import type { Bindings } from '../../src/loaders/bindings';
 import type { McVersion } from '../../src/minecraft/version/_index';
+import { writeLoaderSync } from '../lib';
 
 export const ornithe = async () => {
 	const mcVersions = (

@@ -1,7 +1,6 @@
-import { writeLoaderSync } from '../lib';
-
 import { Bindings } from '../../src/loaders/bindings';
 import { McVersion } from '../../src/minecraft/_index';
+import { writeLoaderSync } from '../lib';
 
 export const purpur = async () => {
 	const mcVersions = (

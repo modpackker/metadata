@@ -874,5 +874,5 @@ export const mcVersions = [
 	'rd-160052',
 	'rd-20090515',
 	'rd-132328',
-	'rd-132211'
+	'rd-132211',
 ] as const satisfies string[];

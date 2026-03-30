@@ -1,6 +1,5 @@
-import { writeLoaderSync } from '../lib';
-
 import { McVersion } from '../../src/minecraft/_index';
+import { writeLoaderSync } from '../lib';
 
 const irrelevantMcVersions = [
 	'1.21.11_unobfuscated',

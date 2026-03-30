@@ -1,7 +1,6 @@
-import { writeLoaderSync } from '../lib';
-
-import type { McVersion } from '../../src/minecraft/_index';
 import type { Bindings } from '../../src/loaders/bindings';
+import type { McVersion } from '../../src/minecraft/_index';
+import { writeLoaderSync } from '../lib';
 
 export const quilt = async () => {
 	const maven = Object.entries(

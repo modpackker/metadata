@@ -384,5 +384,5 @@ export const quiltBindings: Bindings = {
 	'19w38a': '0.30.0-beta.3',
 	'19w37a': '0.30.0-beta.3',
 	'19w36a': '0.30.0-beta.3',
-	'1.14.4': '0.30.0-beta.3'
+	'1.14.4': '0.30.0-beta.3',
 };

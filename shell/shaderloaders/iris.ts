@@ -1,8 +1,7 @@
-import { writeLoaderSync } from '../lib';
-
 import { ProjectBindings } from '../../src/loaders/bindings';
 import { ModLoader } from '../../src/loaders/modloaders/_index';
 import { McVersion } from '../../src/minecraft/version/_index';
+import { writeLoaderSync } from '../lib';
 
 export const iris = async () => {
 	const maven = (await (await fetch('https://api.modrinth.com/v3/project/iris')).json()) as {

@@ -23,6 +23,6 @@
 		/* compiler */
 		"target": "ESNext",
 		"declaration": true,
-		"outDir": "./dist",
-	},
+		"outDir": "./dist"
+	}
 }
