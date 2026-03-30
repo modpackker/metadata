@@ -18,9 +18,9 @@ export const neoforge = async () => {
 		if (major === '26') {
 			bindings[`${major}.${minor}` as McVersion] = loaderVersion;
 		} else if (major === '0') {
-			bindings[minor as McVersion] = loaderVersion;
+			bindings[minor.replace(/\.0$/, '') as McVersion] = loaderVersion;
 		} else {
-			bindings[`1.${major}.${minor}` as McVersion] = loaderVersion;
+			bindings[`1.${major}.${minor.replace(/\.0$/, '')}` as McVersion] = loaderVersion;
 		}
 	}
 

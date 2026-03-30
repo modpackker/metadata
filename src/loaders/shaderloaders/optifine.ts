@@ -38,10 +38,10 @@ export const optifineBindings: ProjectBindings = {
 		'1.10': 'HD U B6',
 		'1.9.4': 'HD U B4',
 		'1.9.2': 'HD U B1',
-		'1.9.0': 'HD U B1',
+		'1.9': 'HD U B1',
 		'1.8.9': 'HD U H5',
 		'1.8.8': 'HD U H5',
-		'1.8.0': 'HD U H5',
+		'1.8': 'HD U H5',
 		'1.7.10': 'HD U D3',
 		'1.7.2': 'HD U E3'
 	}

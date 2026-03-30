@@ -18,10 +18,8 @@ export const forge = async () => {
 
 	for (const [mcVersion, loaderVersion] of maven) {
 		if (mcVersion.endsWith('-latest')) {
-			bindings[mcVersion.replaceAll('-latest', '') as McVersion] = loaderVersion.replaceAll(
-				'-latest',
-				'',
-			);
+			bindings[mcVersion.replaceAll('-latest', '').replace(/\.0$/, '') as McVersion] =
+				loaderVersion.replaceAll('-latest', '');
 		}
 	}
 

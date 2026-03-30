@@ -15,7 +15,7 @@ export const optifine = async () => {
 	for (const match of html.matchAll(regex)) {
 		const [mcVersion, ...rest] = match[1].split('_');
 
-		bindings.vanilla![mcVersion as McVersion] = rest.join(' ');
+		bindings.vanilla![mcVersion.replace(/\.0$/, '') as McVersion] = rest.join(' ');
 	}
 
 	writeLoaderSync('shaderloader', 'optifine', bindings);
