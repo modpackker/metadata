@@ -1,6 +1,5 @@
 import type { Context } from '../context.js';
 import type { Edition, McVersion, MultiplayerEnv } from '../minecraft/_index.js';
-
 import type { ProjectType } from './_index.js';
 
 export type Metadata = {
