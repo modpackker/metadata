@@ -22,4 +22,6 @@ export const nilloader = async () => {
 	);
 
 	writeLoaderSync('modloader', 'nilloader', bindings);
+
+	console.log('NilLoader synced');
 };

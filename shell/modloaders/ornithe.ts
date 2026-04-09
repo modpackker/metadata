@@ -35,4 +35,6 @@ export const ornithe = async () => {
 	);
 
 	writeLoaderSync('modloader', 'ornithe', bindings);
+
+	console.log('Ornithe synced');
 };

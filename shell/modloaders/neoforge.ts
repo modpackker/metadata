@@ -24,4 +24,6 @@ export const neoforge = async () => {
 	}
 
 	writeLoaderSync('modloader', 'neoforge', bindings);
+
+	console.log('NeoForge synced');
 };

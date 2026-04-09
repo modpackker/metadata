@@ -39,4 +39,6 @@ export const iris = async () => {
 	}
 
 	writeLoaderSync('shaderloader', 'iris', bindings);
+
+	console.log('Iris synced');
 };

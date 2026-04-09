@@ -39,4 +39,6 @@ export const canvas = async () => {
 	}
 
 	writeLoaderSync('shaderloader', 'canvas', bindings);
+
+	console.log('Canvas synced');
 };

@@ -21,4 +21,6 @@ export const folia = async () => {
 	);
 
 	writeLoaderSync('pluginloader', 'folia', bindings);
+
+	console.log('Folia synced');
 };

@@ -33,4 +33,6 @@ export const minecraft = async () => {
 			JSON.stringify(mcMajorVersions, null, '\t').replaceAll(`"`, `'`) +
 			' as const satisfies McVersion[];\n',
 	);
+
+	console.log('Minecraft synced');
 };

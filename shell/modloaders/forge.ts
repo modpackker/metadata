@@ -23,4 +23,6 @@ export const forge = async () => {
 	}
 
 	writeLoaderSync('modloader', 'forge', bindings);
+
+	console.log('Forge synced');
 };

@@ -59,4 +59,6 @@ export const sponge = async () => {
 	}
 
 	writeLoaderSync('pluginloader', 'sponge', bindings);
+
+	console.log('Sponge synced');
 };

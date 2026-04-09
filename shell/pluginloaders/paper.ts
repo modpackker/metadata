@@ -21,4 +21,6 @@ export const paper = async () => {
 	);
 
 	writeLoaderSync('pluginloader', 'paper', bindings);
+
+	console.log('Paper synced');
 };

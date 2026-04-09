@@ -43,4 +43,6 @@ export const legacyfabric = async () => {
 	);
 
 	writeLoaderSync('modloader', 'legacyfabric', bindings);
+
+	console.log('LegacyFabric synced');
 };

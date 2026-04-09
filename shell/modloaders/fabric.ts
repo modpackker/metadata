@@ -58,4 +58,6 @@ export const fabric = async () => {
 	);
 
 	writeLoaderSync('modloader', 'fabric', bindings);
+
+	console.log('Fabric synced');
 };

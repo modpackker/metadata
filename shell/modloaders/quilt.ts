@@ -19,4 +19,6 @@ export const quilt = async () => {
 	}
 
 	writeLoaderSync('modloader', 'quilt', bindings);
+
+	console.log('Quilt synced');
 };

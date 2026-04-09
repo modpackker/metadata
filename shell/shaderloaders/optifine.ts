@@ -18,4 +18,6 @@ export const optifine = async () => {
 	}
 
 	writeLoaderSync('shaderloader', 'optifine', bindings);
+
+	console.log('Optifine synced');
 };

@@ -17,4 +17,6 @@ export const purpur = async () => {
 	}
 
 	writeLoaderSync('pluginloader', 'purpur', bindings);
+
+	console.log('Purpur synced');
 };
