@@ -20,12 +20,10 @@ export const sponge = async () => {
 	const bindings: Bindings = {};
 
 	for (const version of maven) {
+		const devFlags = ['DEV', 'SNAPSHOT', 'BETA'];
 		const parts = version.split('-');
 
-		if (
-			['DEV', 'SNAPSHOT', 'BETA'].includes(parts[2]) ||
-			['DEV', 'SNAPSHOT', 'BETA'].includes(parts[3])
-		) {
+		if (devFlags.includes(parts[2]) || devFlags.includes(parts[3])) {
 			continue;
 		}
 

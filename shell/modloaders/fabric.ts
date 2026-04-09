@@ -36,11 +36,11 @@ export const fabric = async () => {
 			version: McVersion;
 		}[]
 	)
+		.filter((maven) => {
+			return !irrelevantMcVersions.includes(maven.version);
+		})
 		.map((release) => {
 			return release.version;
-		})
-		.filter((mcVersion) => {
-			return !irrelevantMcVersions.includes(mcVersion);
 		});
 
 	const bindings = Object.fromEntries(
@@ -48,7 +48,13 @@ export const fabric = async () => {
 			mcVersions.map((mcVersion) => {
 				return fetch(`https://meta.fabricmc.net/v2/versions/loader/${mcVersion}`)
 					.then((res) => {
-						return res.json();
+						return res.json() as Promise<
+							{
+								loader: {
+									version: string;
+								};
+							}[]
+						>;
 					})
 					.then((res) => {
 						return [mcVersion, res[0].loader.version];

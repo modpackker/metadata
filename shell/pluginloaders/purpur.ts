@@ -4,17 +4,24 @@ import { writeLoaderSync } from '../lib';
 
 export const purpur = async () => {
 	const mcVersions = (
-		(await (await fetch('https://api.purpurmc.org/v2/purpur')).json()).versions as McVersion[]
-	).reverse();
+		(await (await fetch('https://api.purpurmc.org/v2/purpur')).json()) as {
+			versions: McVersion[];
+		}
+	).versions.reverse();
 
-	const bindings: Bindings = {};
-
-	for (const mcVersion of mcVersions) {
-		const version = (await (await fetch(`https://api.purpurmc.org/v2/purpur/${mcVersion}`)).json())
-			.builds.latest;
-
-		bindings[mcVersion] = version;
-	}
+	const bindings = Object.fromEntries(
+		await Promise.all(
+			mcVersions.map((mcVersion) => {
+				return fetch(`https://api.purpurmc.org/v2/purpur/${mcVersion}`)
+					.then((res) => {
+						return res.json();
+					})
+					.then((res) => {
+						return [mcVersion, res.builds.latest];
+					});
+			}),
+		),
+	);
 
 	writeLoaderSync('pluginloader', 'purpur', bindings);
 

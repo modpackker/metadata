@@ -3,8 +3,12 @@ import { writeLoaderSync } from '../lib';
 
 export const paper = async () => {
 	const mcVersions = Object.values(
-		(await (await fetch('https://fill.papermc.io/v3/projects/paper')).json()).versions,
-	).flat() as McVersion[];
+		(
+			(await (await fetch('https://fill.papermc.io/v3/projects/paper')).json()) as {
+				versions: [McVersion[]];
+			}
+		).versions,
+	).flat();
 
 	const bindings = Object.fromEntries(
 		await Promise.all(
