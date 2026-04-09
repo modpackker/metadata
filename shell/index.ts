@@ -47,7 +47,6 @@ await Promise.all([
 	folia(),
 	paper(),
 	purpur(),
-	quilt(),
 	spigot(),
 	sponge(),
 
