@@ -19,7 +19,7 @@ export const neoforge = async () => {
 		} else if (major === '0') {
 			bindings[minor.replace(/\.0$/, '') as McVersion] = loaderVersion;
 		} else {
-			bindings[`1.${major}.${minor.replace(/\.0$/, '')}` as McVersion] = loaderVersion;
+			bindings[`1.${major}${`.${minor}`.replace(/\.0$/, '')}` as McVersion] = loaderVersion;
 		}
 	}
 
@@ -27,3 +27,5 @@ export const neoforge = async () => {
 
 	console.log('NeoForge synced');
 };
+
+await neoforge();
