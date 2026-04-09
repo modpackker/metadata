@@ -1,6 +1,6 @@
-import { Bindings } from '../../src/loaders/bindings';
-import { McVersion } from '../../src/minecraft/_index';
-import { writeLoaderSync } from '../lib';
+import { Bindings } from '../../src/loaders/bindings.ts';
+import { McVersion } from '../../src/minecraft/_index.ts';
+import { writeLoaderSync } from '../lib.ts';
 
 export const sponge = async () => {
 	const maven = [

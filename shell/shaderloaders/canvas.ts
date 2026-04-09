@@ -1,7 +1,7 @@
-import { ProjectBindings } from '../../src/loaders/bindings';
-import { ModLoader } from '../../src/loaders/modloaders/_index';
-import { McVersion } from '../../src/minecraft/_index';
-import { writeLoaderSync } from '../lib';
+import { ProjectBindings } from '../../src/loaders/bindings.ts';
+import { ModLoader } from '../../src/loaders/modloaders/_index.ts';
+import { McVersion } from '../../src/minecraft/_index.ts';
+import { writeLoaderSync } from '../lib.ts';
 
 export const canvas = async () => {
 	const maven = (await (await fetch('https://api.modrinth.com/v3/project/canvas')).json()) as {

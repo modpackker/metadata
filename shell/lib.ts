@@ -1,6 +1,6 @@
 import { writeFileSync } from 'node:fs';
 
-import type { Bindings, ProjectBindings } from '../src/loaders/bindings';
+import type { Bindings, ProjectBindings } from '../src/loaders/bindings.ts';
 
 export const writeLoaderSync = (
 	category: 'modloader' | 'pluginloader' | 'proxyserver' | 'shaderloader',

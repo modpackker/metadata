@@ -1,6 +1,6 @@
 import { writeFileSync } from 'node:fs';
 
-import { McVersion } from '../src/minecraft/version/_index';
+import { McVersion } from '../src/minecraft/version/_index.ts';
 
 export const minecraft = async () => {
 	const maven = (

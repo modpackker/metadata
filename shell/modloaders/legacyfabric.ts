@@ -1,6 +1,6 @@
-import type { Bindings } from '../../src/loaders/bindings';
-import type { McVersion } from '../../src/minecraft/version/_index';
-import { writeLoaderSync } from '../lib';
+import type { Bindings } from '../../src/loaders/bindings.ts';
+import type { McVersion } from '../../src/minecraft/version/_index.ts';
+import { writeLoaderSync } from '../lib.ts';
 
 export const legacyfabric = async () => {
 	const mcVersions = (

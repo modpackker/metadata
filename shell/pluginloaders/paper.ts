@@ -1,5 +1,5 @@
-import { McVersion } from '../../src/minecraft/_index';
-import { writeLoaderSync } from '../lib';
+import { McVersion } from '../../src/minecraft/_index.ts';
+import { writeLoaderSync } from '../lib.ts';
 
 export const paper = async () => {
 	const mcVersions = Object.values(
