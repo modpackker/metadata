@@ -2,6 +2,7 @@ import type { Bindings } from '../bindings.js';
 
 export const spongeBindings: Bindings = {
 	'26.1': '19.0.0-RC2577',
+	'26.1.1': '19.0.0-RC2587',
 	'26.1-pre-3': '19.0.0-RC2573',
 	'26.1-pre-2': '19.0.0-RC2572',
 	'26.1-snapshot-10': '19.0.0-RC2565',
@@ -77,5 +78,5 @@ export const spongeBindings: Bindings = {
 	'25w05a': '15.0.0-RC2034',
 	'25w04a': '15.0.0-RC2031',
 	'25w03a': '15.0.0-RC1999',
-	'25w02a': '15.0.0-RC1987',
+	'25w02a': '15.0.0-RC1987'
 };

@@ -1,7 +1,8 @@
 import type { Bindings } from '../bindings.js';
 
 export const paperBindings: Bindings = {
-	'1.21.11': '127',
+	'26.1.1': '29',
+	'1.21.11': '129',
 	'1.21.11-rc3': '31',
 	'1.21.11-rc2': '29',
 	'1.21.11-rc1': '19',
@@ -62,5 +63,5 @@ export const paperBindings: Bindings = {
 	'1.10.2': '918',
 	'1.9.4': '775',
 	'1.8.8': '445',
-	'1.7.10': '2025',
+	'1.7.10': '2025'
 };

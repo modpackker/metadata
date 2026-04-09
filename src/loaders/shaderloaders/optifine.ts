@@ -1,7 +1,7 @@
 import type { ProjectBindings } from '../bindings.js';
 
 export const optifineBindings: ProjectBindings = {
-	vanilla: {
+	'vanilla': {
 		'1.21.11': 'HD U J8',
 		'1.21.4': 'HD U J3',
 		'1.21.3': 'HD U J2',
@@ -43,6 +43,6 @@ export const optifineBindings: ProjectBindings = {
 		'1.8.8': 'HD U H5',
 		'1.8': 'HD U H5',
 		'1.7.10': 'HD U D3',
-		'1.7.2': 'HD U E3',
-	},
+		'1.7.2': 'HD U E3'
+	}
 };

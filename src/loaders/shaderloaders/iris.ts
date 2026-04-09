@@ -1,8 +1,10 @@
 import type { ProjectBindings } from '../bindings.js';
 
 export const irisBindings: ProjectBindings = {
-	fabric: {
-		'26.1': '1.10.8+26.1-fabric',
+	'fabric': {
+		'26.1.2': '1.10.9+26.1-fabric',
+		'26.1.1': '1.10.9+26.1-fabric',
+		'26.1': '1.10.9+26.1-fabric',
 		'1.21.11': '1.10.7+1.21.11-fabric',
 		'1.21.10': '1.9.7+1.21.10-fabric',
 		'1.21.9': '1.9.7+1.21.10-fabric',
@@ -32,9 +34,12 @@ export const irisBindings: ProjectBindings = {
 		'1.18': 'mc1.18.1-1.1.3',
 		'1.17.1': '1.17.x-v1.2.7',
 		'1.17': 'mc1.17-v1.1.1',
-		'1.16.5': '1.4.5+1.16.5',
+		'1.16.5': '1.4.5+1.16.5'
 	},
-	neoforge: {
+	'neoforge': {
+		'26.1.2': '1.10.9+26.1-neoforge',
+		'26.1.1': '1.10.9+26.1-neoforge',
+		'26.1': '1.10.9+26.1-neoforge',
 		'1.21.11': '1.10.7+1.21.11-neoforge',
 		'1.21.10': '1.9.7+1.21.10-neoforge',
 		'1.21.8': '1.9.6+1.21.8-neoforge',
@@ -45,9 +50,9 @@ export const irisBindings: ProjectBindings = {
 		'1.21.3': '1.8.1+1.21.3-neoforge',
 		'1.21.2': '1.8.0-beta.6+1.21.2-neoforge',
 		'1.21.1': '1.8.12+1.21.1-neoforge',
-		'1.21': '1.8.0-beta.4+1.21-neoforge',
+		'1.21': '1.8.0-beta.4+1.21-neoforge'
 	},
-	quilt: {
+	'quilt': {
 		'1.21.11': '1.10.6+1.21.11-fabric',
 		'1.21.10': '1.9.4+1.21.10-fabric',
 		'1.21.9': '1.9.4+1.21.10-fabric',
@@ -74,6 +79,6 @@ export const irisBindings: ProjectBindings = {
 		'1.19': '1.6.11+1.19.2',
 		'1.18.2': '1.6.11+1.18.2',
 		'1.17.1': '1.17.x-v1.2.7',
-		'1.16.5': '1.4.5+1.16.5',
-	},
+		'1.16.5': '1.4.5+1.16.5'
+	}
 };
