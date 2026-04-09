@@ -1,6 +1,6 @@
-import type { ProjectBindings } from '../../src/loaders/bindings.ts';
-import type { McVersion } from '../../src/minecraft/version/_index.ts';
-import { writeLoaderSync } from '../lib.ts';
+import type { ProjectBindings } from '../../src/loaders/bindings.js';
+import type { McVersion } from '../../src/minecraft/version/_index.js';
+import { writeLoaderSync } from '../lib.js';
 
 export const optifine = async () => {
 	const html = await (await fetch('https://optifine.net/downloads')).text();
