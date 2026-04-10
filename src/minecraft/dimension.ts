@@ -1,4 +1,4 @@
-import z from 'zod';
+import { z } from 'zod';
 
 export const dimensions = ['overworld', 'nether', 'end'] as const satisfies string[];
 

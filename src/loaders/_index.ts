@@ -1,4 +1,4 @@
-import z from 'zod';
+import { z } from 'zod';
 
 import type { DeprecatedModLoader, ModLoader } from './modloaders/_index.js';
 import type { PluginLoader } from './pluginloaders/_index.js';

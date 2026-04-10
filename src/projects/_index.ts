@@ -1,4 +1,4 @@
-import z from 'zod';
+import { z } from 'zod';
 
 import { moddingTypes } from './modding/_index.js';
 import { vanillaTypes } from './vanilla/_index.js';

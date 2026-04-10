@@ -1,4 +1,4 @@
-import z from 'zod';
+import { z } from 'zod';
 
 export const javaVersions = [25, 21, 17, 11, 8] as const satisfies number[];
 
