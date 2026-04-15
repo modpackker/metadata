@@ -1,5 +1,5 @@
-export * from './context.js';
 export * from './java.js';
+export * from './context.js';
 
 export * from './minecraft/_index.js';
 
