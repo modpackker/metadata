@@ -1,4 +1,5 @@
 import { minecraft } from './minecraft.js';
+import { mrpack } from './mrpack.js';
 import { babric } from './modloaders/babric.js';
 import { bta } from './modloaders/bta.js';
 import { fabric } from './modloaders/fabric.js';
@@ -60,4 +61,8 @@ await Promise.all([
 	canvas(),
 	iris(),
 	optifine(),
+
+	/*  */
+
+	mrpack(),
 ]);
