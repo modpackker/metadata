@@ -1,6 +1,6 @@
 import { writeFileSync } from 'node:fs';
 
-import { McVersion } from '../src/minecraft/_index.js';
+import type { McVersion } from '../src/minecraft/_index.js';
 
 export const mrpack = async () => {
 	const mcVersions = (

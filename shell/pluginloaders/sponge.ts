@@ -1,5 +1,5 @@
-import { Bindings } from '../../src/loaders/bindings.js';
-import { McVersion } from '../../src/minecraft/_index.js';
+import type { Bindings } from '../../src/loaders/bindings.js';
+import type { McVersion } from '../../src/minecraft/_index.js';
 import { writeLoaderSync } from '../lib.js';
 
 export const sponge = async () => {

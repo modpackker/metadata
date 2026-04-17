@@ -19,6 +19,5 @@ export type Project = VanillaProject | ModdingProject;
 /*  */
 
 export * from './metadata.js';
-
-export * from './vanilla/_index.js';
 export * from './modding/_index.js';
+export * from './vanilla/_index.js';

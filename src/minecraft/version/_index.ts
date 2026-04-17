@@ -315,5 +315,5 @@ export const mcLegacyVersionValidator = z.enum(mcLegacyVersions);
 
 /*  */
 
-export { mcVersions } from './versions.js';
 export { mcMajorVersions } from './majorversions.js';
+export { mcVersions } from './versions.js';

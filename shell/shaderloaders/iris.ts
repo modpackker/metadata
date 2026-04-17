@@ -1,6 +1,6 @@
-import { ProjectBindings } from '../../src/loaders/bindings.js';
-import { ModLoader } from '../../src/loaders/modloaders/_index.js';
-import { McVersion } from '../../src/minecraft/version/_index.js';
+import type { ProjectBindings } from '../../src/loaders/bindings.js';
+import type { ModLoader } from '../../src/loaders/modloaders/_index.js';
+import type { McVersion } from '../../src/minecraft/version/_index.js';
 import { writeLoaderSync } from '../lib.js';
 
 export const iris = async () => {

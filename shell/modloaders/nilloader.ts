@@ -1,5 +1,5 @@
 import type { Bindings } from '../../src/loaders/bindings.js';
-import { mcVersions, type McVersion } from '../../src/minecraft/version/_index.js';
+import { type McVersion, mcVersions } from '../../src/minecraft/version/_index.js';
 import { writeLoaderSync } from '../lib.js';
 
 export const nilloader = async () => {

@@ -1,12 +1,12 @@
 import { z } from 'zod';
 
 import {
-	deprecatedModLoaders,
-	modLoaders,
 	type DeprecatedModLoader,
+	deprecatedModLoaders,
 	type ModLoader,
+	modLoaders,
 } from './modloaders/_index.js';
-import { pluginLoaders, type PluginLoader } from './pluginloaders/_index.js';
+import { type PluginLoader, pluginLoaders } from './pluginloaders/_index.js';
 
 export type ModPluginLoader = ModLoader | DeprecatedModLoader | PluginLoader;
 

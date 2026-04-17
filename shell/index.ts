@@ -1,5 +1,4 @@
 import { minecraft } from './minecraft.js';
-import { mrpack } from './mrpack.js';
 import { babric } from './modloaders/babric.js';
 import { bta } from './modloaders/bta.js';
 import { fabric } from './modloaders/fabric.js';
@@ -12,6 +11,7 @@ import { nilloader } from './modloaders/nilloader.js';
 import { ornithe } from './modloaders/ornithe.js';
 import { quilt } from './modloaders/quilt.js';
 import { rift } from './modloaders/rift.js';
+import { mrpack } from './mrpack.js';
 import { bukkit } from './pluginloaders/bukkit.js';
 import { folia } from './pluginloaders/folia.js';
 import { paper } from './pluginloaders/paper.js';

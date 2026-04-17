@@ -23,7 +23,7 @@ export type Loader = ModLoader | DeprecatedModLoader | PluginLoader | ProxyServe
 export * from './bindings.js';
 
 export * from './modloaders/_index.js';
-export * from './shaderloaders/_index.js';
-export * from './pluginloaders/_index.js';
 export * from './modpluginloader.js';
+export * from './pluginloaders/_index.js';
 export * from './proxyservers/_index.js';
+export * from './shaderloaders/_index.js';

@@ -34,11 +34,10 @@ export { btaBindings } from './bta.js';
 export { fabricBindings } from './fabric.js';
 export { forgeBindings } from './forge.js';
 export { legacyfabricBindings } from './legacyfabric.js';
+export { liteloaderBindings } from './liteloader.js';
+export { modloaderBindings } from './modloader.js';
 export { neoforgeBindings } from './neoforge.js';
 export { nilloaderBindings } from './nilloader.js';
 export { ornitheBindings } from './ornithe.js';
 export { quiltBindings } from './quilt.js';
-
-export { modloaderBindings } from './modloader.js';
-export { liteloaderBindings } from './liteloader.js';
 export { riftBindings } from './rift.js';

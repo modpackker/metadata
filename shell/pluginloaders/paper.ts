@@ -1,4 +1,4 @@
-import { McVersion } from '../../src/minecraft/_index.js';
+import type { McVersion } from '../../src/minecraft/_index.js';
 import { writeLoaderSync } from '../lib.js';
 
 export const paper = async () => {
