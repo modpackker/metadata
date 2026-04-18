@@ -12,7 +12,7 @@ export const writeLoaderSync = (
 			`import type { ProjectBindings } from '../bindings.js';\n\nexport const ${name}Bindings: ProjectBindings = `
 		:	`import type { Bindings } from '../bindings.js';\n\nexport const ${name}Bindings: Bindings = `;
 
-	const text = i + JSON.stringify(data, null, '\t').replaceAll(`"`, `'`) + ';\n';
+	const text = `${i + JSON.stringify(data, null, '\t').replaceAll(`"`, `'`)};\n`;
 
 	writeFileSync(`src/loaders/${category}s/${name}.ts`, text);
 };
