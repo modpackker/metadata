@@ -9,23 +9,18 @@ export const modLoaders = [
 	'fabric',
 	'forge',
 	'legacyfabric',
+	'liteloader',
+	'modloader',
 	'neoforge',
 	'nilloader',
 	'ornithe',
 	'quilt',
+	'rift',
 ] as const satisfies string[];
 
 export type ModLoader = (typeof modLoaders)[number];
 
 export const modLoaderValidator = z.enum(modLoaders);
-
-/*  */
-
-export const deprecatedModLoaders = ['modloader', 'liteloader', 'rift'] as const satisfies string[];
-
-export type DeprecatedModLoader = (typeof deprecatedModLoaders)[number];
-
-export const deprecatedModLoaderValidator = z.enum(deprecatedModLoaders);
 
 /*  */
 

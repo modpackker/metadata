@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-import type { DeprecatedModLoader, ModLoader } from './modloaders/_index.js';
+import type { ModLoader } from './modloaders/_index.js';
 import type { PluginLoader } from './pluginloaders/_index.js';
 import type { ProxyServer } from './proxyservers/_index.js';
 import type { ShaderLoader } from './shaderloaders/_index.js';
@@ -16,7 +16,7 @@ export type LoaderType = (typeof loaderTypes)[number];
 
 export const loaderTypeValidator = z.enum(loaderTypes);
 
-export type Loader = ModLoader | DeprecatedModLoader | PluginLoader | ProxyServer | ShaderLoader;
+export type Loader = ModLoader | PluginLoader | ProxyServer | ShaderLoader;
 
 /*  */
 
