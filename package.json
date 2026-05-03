@@ -3,7 +3,7 @@
 	"type": "module",
 	"exports": {
 		".": {
-			"default": "./dist/_index.js",
+			"import": "./dist/_index.js",
 			"types": "./dist/_index.d.ts"
 		}
 	},
